@@ -7,23 +7,33 @@ public class ParkingArea {
     private String name;
     private int capacity;
     private String allowedType;
-    private List<Vehicle> vehicles = new ArrayList<>();
-
-    public ParkingArea() {}
+    private List<Vehicle> vehicles;
 
     public ParkingArea(String name, int capacity, String allowedType) {
         this.name = name;
         this.capacity = capacity;
         this.allowedType = allowedType;
+        this.vehicles = new ArrayList<>();
     }
 
-    public String getName() { return name; }
-    public int getCapacity() { return capacity; }
-    public String getAllowedType() { return allowedType; }
-    public List<Vehicle> getVehicles() { return vehicles; }
+    public String getName() {
+        return name;
+    }
+
+    public int getCapacity() {
+        return capacity;
+    }
+
+    public String getAllowedType() {
+        return allowedType;
+    }
+
+    public List<Vehicle> getVehicles() {
+        return vehicles;
+    }
 
     public boolean accepts(String vehicleType) {
-        return allowedType.equals("*") || allowedType.equals(vehicleType);
+        return allowedType.equals(vehicleType);
     }
 
     public boolean isFull() {
