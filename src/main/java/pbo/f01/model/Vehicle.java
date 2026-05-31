@@ -1,23 +1,9 @@
 package pbo.f01.model;
 
-import jakarta.persistence.*;
-
-@Entity
-@Table(name = "vehicle")
 public class Vehicle {
-    @Id
-    @Column(name = "plate_number")
     private String plateNumber;
-
-    @Column(name = "owner")
     private String owner;
-
-    @Column(name = "type")
     private String type;
-
-    // Relasi Banyak kendaraan ke 1 Area
-    @ManyToOne
-    @JoinColumn(name = "area_name")
     private ParkingArea parkingArea;
 
     public Vehicle() {}

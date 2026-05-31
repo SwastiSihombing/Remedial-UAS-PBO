@@ -1,0 +1,3 @@
+area-add#Area X#5#car
+park#GHOST99#Area X
+display-all

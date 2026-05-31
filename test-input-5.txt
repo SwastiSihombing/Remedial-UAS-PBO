@@ -1,0 +1,4 @@
+area-add#Zona Z#5#car
+area-add#Zona C#5#car
+area-add#Zona A#5#car
+display-all

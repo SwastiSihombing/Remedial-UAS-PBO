@@ -1,0 +1,11 @@
+area-add#B Area#5#car
+area-add#A Area#5#motorcycle
+vehicle-add#B2#Dua#car
+vehicle-add#B1#Satu#car
+vehicle-add#M2#Dua#motorcycle
+vehicle-add#M1#Satu#motorcycle
+park#B2#B Area
+park#B1#B Area
+park#M2#A Area
+park#M1#A Area
+display-all

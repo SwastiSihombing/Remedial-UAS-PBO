@@ -1,0 +1,2 @@
+area-add#Area Parkir A#10#car
+display-all

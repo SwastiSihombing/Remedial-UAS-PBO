@@ -45,6 +45,7 @@ public class App {
             } else if (command.equals("display-all")) {
                 service.displayAll();
             }
+            System.out.flush();
         }
 
         scanner.close();

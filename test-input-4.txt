@@ -1,0 +1,4 @@
+area-add#Area 1#1#car
+vehicle-add#B123XX#Joko#car
+park#B123XX#Area 1
+display-all

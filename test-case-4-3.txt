@@ -1,0 +1,6 @@
+area-add#Parkir Ketat#1#car
+vehicle-add#A1#Eka#car
+vehicle-add#A2#Fani#car
+park#A1#Parkir Ketat
+park#A2#Parkir Ketat
+display-all

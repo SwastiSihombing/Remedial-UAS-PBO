@@ -1,0 +1,4 @@
+area-add#Parkir M#10#motorcycle
+vehicle-add#C123#Dani#car
+park#C123#Parkir M
+display-all
